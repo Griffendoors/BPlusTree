@@ -1,0 +1,16 @@
+Ryan Griffin
+300262155
+Comp 261
+Assignment 5
+
+B-Plus Tree Assignment
+
+My Program succesfully constructs and popluates the two B+ Trees (Not a single generic tree). The primary methods find and put, both work for loading the data from the text file,
+to populate the tree. Additionally, I Have implemented methods add, and dealWithPromote that performs the logical additions, that operate within the constraints on the B+ Tree.
+I Implemented 8 additional classes to assist in the construction of the tree - 2 generic node classes one for Int and one for String, aswell as Leaf nodes and Internal Nodes - 
+an implementation for both. Also - I created an auxillary Tuple / Split class that performs the operations necessary when nodes need to be split.
+I Mostly Commented the half of the system - it seemed redundant to comment the near identical counterpart.
+My Program sucessfully fufills all of the requirements for part one of the assignment - The find(), Put(), and IterateAll() methods function properly, I have both IP and HostName
+Trees implemented. The program loads the data from host-list.txt fine, and correctly passes the test-list.txt 'data check test'.
+I did not complete anything from parts 2 / 3. The tree is stored in memory, not a file and the program is not optimized to read a single whole block at a time, nor to store the optimal
+number of elements in the node based on the block size.
